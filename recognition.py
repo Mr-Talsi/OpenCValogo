@@ -4,7 +4,7 @@ import cv2 as cv
 
 haar_cascade = cv.CascadeClassifier('haar_faces.xml')
 
-people = ['Ahmed','yassmine']
+people = ['Ahmed','']#same people you put in train.py
 # features = np.load('features.npy', allow_pickle=True)
 # labels = np.load('labels.npy')
 
