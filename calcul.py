@@ -9,7 +9,7 @@ img = cv.resize(img, (500, 500))
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 gray = cv.GaussianBlur(gray, (3, 3), 0)
 gray = gray.astype(np.float32)
-gray =gray_reshape = gray.reshape(-1, 1)
+gray =gray.reshape(-1, 1)
 
 criteria = (cv.TERM_CRITERIA_EPS + cv.TERM_CRITERIA_MAX_ITER, 100, 0.2)
 k = 2  
